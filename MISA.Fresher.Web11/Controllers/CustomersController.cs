@@ -11,6 +11,7 @@ namespace MISA.Fresher.Web11.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
+        //Test commit git
         [HttpGet()]
         public ActionResult Get()
         {
@@ -137,7 +138,7 @@ namespace MISA.Fresher.Web11.Controllers
                     //Nếu trùng đưa ra thông báo
                     if (resCheck != null)
                     {
-                        errsList.Add("Mã khách hàng đã tồn tại");
+                        errsList.Add("Mã khách hàng đã tồn tại !");
                     }
                 }
 
