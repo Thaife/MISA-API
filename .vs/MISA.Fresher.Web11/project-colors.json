@@ -10,7 +10,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "1f6b21ab-17e5-4820-81d5-c2f9205ee33b": {
+      "ProjectGuid": "1f6b21ab-17e5-4820-81d5-c2f9205ee33b",
+      "DisplayName": "MISA.Web11.API",
+      "ColorIndex": 1
+    },
+    "1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd": {
+      "ProjectGuid": "1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd",
+      "DisplayName": "MISA.Web11.Core",
+      "ColorIndex": 2
+    },
+    "efcf6653-702e-40e2-8225-e32afc2e105b": {
+      "ProjectGuid": "efcf6653-702e-40e2-8225-e32afc2e105b",
+      "DisplayName": "MISA.Web11.Infrastructure",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

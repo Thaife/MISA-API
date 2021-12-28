@@ -1,0 +1,15 @@
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\MISA.Web11.Infrastructure.deps.json
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\MISA.Web11.Infrastructure.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\ref\MISA.Web11.Infrastructure.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\MISA.Web11.Infrastructure.pdb
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\MISA.Web11.Core.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\bin\Debug\net6.0\MISA.Web11.Core.pdb
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.csproj.AssemblyReference.cache
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.AssemblyInfoInputs.cache
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.AssemblyInfo.cs
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.csproj.CoreCompileInputs.cache
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.csproj.CopyComplete
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\ref\MISA.Web11.Infrastructure.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Infrastructure\obj\Debug\net6.0\MISA.Web11.Infrastructure.pdb

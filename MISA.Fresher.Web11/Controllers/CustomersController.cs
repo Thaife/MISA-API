@@ -111,14 +111,14 @@ namespace MISA.Fresher.Web11.Controllers
 
 
 
-                //List lưu các thông tin lỗi
-                List<string> errsList = new List<string>();
+                
 
 
                 //Sinh ID mới cho customer
                 customer.CustomerId = Guid.NewGuid();
 
-
+                //List lưu các thông tin lỗi
+                List<string> errsList = new List<string>();
 
                 //Kiểm tra mã khách hàng(không để trống, không trùng)
                 var customerCode = customer.CustomerCode;
