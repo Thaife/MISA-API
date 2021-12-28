@@ -21,8 +21,25 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
         /// <returns></returns>
         IEnumerable<Customer> GetCustomers();
 
+        /// <summary>
+        /// Thêm khách hàng
+        /// Created by : Thai (28/12/2021)
+        /// </summary>
+        /// <returns></returns>
         int Insert(Customer customer);
+
+        /// <summary>
+        /// Cập nhật khách hàng
+        /// Created by : Thai (28/12/2021)
+        /// </summary>
+        /// <returns></returns>
         int Update(Customer customer, Guid customerId);
+
+        /// <summary>
+        /// Xóa khách hàng
+        /// Created by : Thai (28/12/2021)
+        /// </summary>
+        /// <returns></returns>
         int Delete(Guid customerId);
 
         /// <summary>

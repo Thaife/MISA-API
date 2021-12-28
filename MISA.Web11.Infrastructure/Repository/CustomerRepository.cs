@@ -149,6 +149,12 @@ namespace MISA.Web11.Infrastructure.Repository
         }
 
 
+        /// <summary>
+        /// Hàm chỉ xóa
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
+        /// Create by : Thai
         public bool checkCustomerCodeDuplicate_NotCurrentCode(Guid customerId, string customerCode)
         {
             // Khai báo thông tin database và Khởi tạo kết nối tới database

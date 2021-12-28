@@ -22,6 +22,11 @@ namespace MISA.Web11.API.Controllers
             this._customerRepository = customerRepository;
         }
 
+        /// <summary>
+        /// Method Get Customer
+        /// </summary>
+        /// <returns></returns>
+        /// Create by : Thai(28/12/2001)
         [HttpGet]
         public IActionResult Get()
         {
@@ -42,6 +47,13 @@ namespace MISA.Web11.API.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Method Post Customer
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
+        /// Create by : Thai(28/12/2001)
         [HttpPost]
         public IActionResult Insert(Customer customer)
         {
@@ -74,6 +86,14 @@ namespace MISA.Web11.API.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Method Put Customer
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
+        /// Create by : Thai(28/12/2001)
         [HttpPut("{customerId}")]
         public IActionResult Update(Customer customer, Guid customerId)
         {
@@ -107,6 +127,13 @@ namespace MISA.Web11.API.Controllers
 
         }
 
+
+        /// <summary>
+        /// Method Delete Customer
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
+        /// Create by : Thai(28/12/2001)
         [HttpDelete("{customerId}")]
         public IActionResult Delete(Guid customerId)
         {
