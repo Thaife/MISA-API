@@ -47,6 +47,19 @@ namespace MISA.Web11.API.Controllers
             }
         }
 
+        [HttpGet("{customerId}")]
+        public IActionResult GetCustomerById(Guid customerId)
+        {
+            try
+            {
+                var res = _customerRepository.GetCustomerById(customerId);
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
 
         /// <summary>
         /// Method Post Customer

@@ -3,6 +3,7 @@ using MISA.Web11.Core.Entities;
 using MISA.Web11.Core.Interfaces.Infrastructure;
 using MySqlConnector;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,6 +45,25 @@ namespace MISA.Web11.Infrastructure.Repository
             var customers = sqlConnection.Query<Customer>(sqlString);
 
             return customers;
+        }
+
+        public object GetCustomerById(Guid customerId)
+        {
+            ///1. Khai báo thông tin database và Khởi tạo kết nối tới database
+            var connectionString = "Server = 47.241.69.179;" +
+                "Port = 3306;" +
+                "Database = MISA.WEB11.TVThai;" +
+                "User Id = dev;" +
+                "Password = manhmisa;";
+            MySqlConnection sqlConnection = new MySqlConnection(connectionString);
+
+            //2. Thực hiện lấy dữ liệu trong database
+            var sqlString = "select * from Customer where CustomerId = @customerId";
+            DynamicParameters paras = new DynamicParameters();
+            paras.Add("@customerId", customerId.ToString());
+            var customer = sqlConnection.QueryFirstOrDefault<Customer>(sqlString, paras);
+
+            return customer;
         }
 
         public int Insert(Customer customer)

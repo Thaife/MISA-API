@@ -1,5 +1,6 @@
 ﻿using MISA.Web11.Core.Entities;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,17 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
         /// </summary>
         /// <returns></returns>
         IEnumerable<Customer> GetCustomers();
+
+
+        /// <summary>
+        /// Lấy khách hàng qua ID
+        /// Created by : Thai (29/12/2021)
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
+        object GetCustomerById(Guid customerId);
+
+
 
         /// <summary>
         /// Thêm khách hàng
