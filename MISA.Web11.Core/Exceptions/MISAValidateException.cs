@@ -17,7 +17,7 @@ namespace MISA.Web11.Core.Exceptions
         public override string Message
         {
             get {
-                return "Dữ liệu không hợp lệ, vui lòng kiểm tra lại";
+                return Properties.Resources.ValidateErrMsg;
             }
         }
 

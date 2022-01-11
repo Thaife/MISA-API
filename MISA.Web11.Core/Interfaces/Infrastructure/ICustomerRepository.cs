@@ -13,64 +13,8 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
     /// Created by : Thai (27/12/2021)
     /// </summary>
     /// <returns></returns>
-    public interface ICustomerRepository
+    public interface ICustomerRepository : IBaseRepository<Customer>
     {
-        /// <summary>
-        /// Lấy toàn bộ danh sách khách hàng
-        /// Created by : Thai (27/12/2021)
-        /// </summary>
-        /// <returns></returns>
-        IEnumerable<Customer> GetCustomers();
-
-
-        /// <summary>
-        /// Lấy khách hàng qua ID
-        /// Created by : Thai (29/12/2021)
-        /// </summary>
-        /// <param name="customerId"></param>
-        /// <returns></returns>
-        object GetCustomerById(Guid customerId);
-
-
-
-        /// <summary>
-        /// Thêm khách hàng
-        /// Created by : Thai (28/12/2021)
-        /// </summary>
-        /// <returns></returns>
-        int Insert(Customer customer);
-
-        /// <summary>
-        /// Cập nhật khách hàng
-        /// Created by : Thai (28/12/2021)
-        /// </summary>
-        /// <returns></returns>
-        int Update(Customer customer, Guid customerId);
-
-        /// <summary>
-        /// Xóa khách hàng
-        /// Created by : Thai (28/12/2021)
-        /// </summary>
-        /// <returns></returns>
-        int Delete(Guid customerId);
-
-        /// <summary>
-        /// Kiểm tra mã khách hàng đã có chưa
-        /// </summary>
-        /// <param name="customerCode"></param>
-        /// <returns>true: đã tồn tại; false: chưa tồn tại</returns>
-        /// Created by : Thai(27/12/2021)
-        bool checkCustomerCodeDuplicate(string customerCode);
-
-
-
-        /// <summary>
-        /// Kiểm tra mã khách hàng đã có chưa nếu giá trị bị thay đổi
-        /// </summary>
-        /// <param name="customerId"></param>
-        /// <param name="customerCode"></param>
-        /// <returns>true: đã tồn tại; false: chưa tồn tại</returns>
-        /// Created by : Thai(28/12/2021)
-        bool checkCustomerCodeDuplicate_NotCurrentCode(Guid customerId, string customerCode);
+        protected bool checkCustomerCodeDuplicate(string customerCode);
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MISA.Web11.Infrastructure.Respository
 {
-    internal class MariaDBContext
+    public class MariaDBContext
     {
     }
 }

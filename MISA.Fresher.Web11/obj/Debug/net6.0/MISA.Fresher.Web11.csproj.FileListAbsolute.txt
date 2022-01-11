@@ -10,7 +10,6 @@ E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Microsoft.Open
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.csproj.AssemblyReference.cache
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.GeneratedMSBuildEditorConfig.editorconfig
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.AssemblyInfoInputs.cache
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.AssemblyInfo.cs
@@ -27,3 +26,4 @@ E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.W
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.genruntimeconfig.cache
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\Dapper.dll
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\bin\Debug\net6.0\MySqlConnector.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Fresher.Web11\obj\Debug\net6.0\MISA.Fresher.Web11.csproj.AssemblyReference.cache
