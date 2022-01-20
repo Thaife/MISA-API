@@ -66,7 +66,7 @@ namespace MISA.Web11.Core.Service
             return null;
         }
 
-        private bool ValidateObject(T entity)
+        public bool ValidateObject(T entity)
         {
             bool isValid = true;
             // validate chung:

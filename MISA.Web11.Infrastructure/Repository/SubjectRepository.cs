@@ -30,9 +30,5 @@ namespace MISA.Web11.Infrastructure.Repository
 
         }
 
-        public int PostMulti(Guid teacherId, List<Guid> subjects)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

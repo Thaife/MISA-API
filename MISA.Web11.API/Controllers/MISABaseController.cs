@@ -10,14 +10,18 @@ namespace MISA.Web11.API.Controllers
     [ApiController]
     public class MISABaseController<T> : ControllerBase
     {
+        #region field
         IBaseService<T> _baseService;
         IBaseRepository<T> _baseRepository;
+        #endregion
+        #region constructor
         public MISABaseController(IBaseService<T> baseService, IBaseRepository<T> baseRepository)
         {
             _baseService = baseService;
             _baseRepository = baseRepository;
         }
-
+        #endregion
+        #region method
         [HttpGet]
         public virtual IActionResult Get()
         {
@@ -164,5 +168,6 @@ namespace MISA.Web11.API.Controllers
                 return StatusCode(500, res);
             }
         }
+        #endregion
     }
 }

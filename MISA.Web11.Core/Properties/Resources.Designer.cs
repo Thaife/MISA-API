@@ -88,7 +88,97 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Có lỗi, vui lòng liên hệ MISA để được trợ giúp.
+        ///   Looks up a localized string similar to STT.
+        /// </summary>
+        public static string Excel_col_1 {
+            get {
+                return ResourceManager.GetString("Excel_col_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Số hiệu cán bộ.
+        /// </summary>
+        public static string Excel_col_2 {
+            get {
+                return ResourceManager.GetString("Excel_col_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Họ và tên.
+        /// </summary>
+        public static string Excel_col_3 {
+            get {
+                return ResourceManager.GetString("Excel_col_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Số điện thoại.
+        /// </summary>
+        public static string Excel_col_4 {
+            get {
+                return ResourceManager.GetString("Excel_col_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tổ chuyên môn.
+        /// </summary>
+        public static string Excel_col_5 {
+            get {
+                return ResourceManager.GetString("Excel_col_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quản lý thiết bị môn.
+        /// </summary>
+        public static string Excel_col_6 {
+            get {
+                return ResourceManager.GetString("Excel_col_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quản lý kho - phòng.
+        /// </summary>
+        public static string Excel_col_7 {
+            get {
+                return ResourceManager.GetString("Excel_col_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Đào tạo QLTB.
+        /// </summary>
+        public static string Excel_col_8 {
+            get {
+                return ResourceManager.GetString("Excel_col_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Đang làm việc.
+        /// </summary>
+        public static string Excel_col_9 {
+            get {
+                return ResourceManager.GetString("Excel_col_9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DẠNH SÁCH CÁN BỘ - GIÁO VIÊN.
+        /// </summary>
+        public static string Excel_Title_Teacher {
+            get {
+                return ResourceManager.GetString("Excel_Title_Teacher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Có lỗi, vui lòng liên hệ MISA để được trợ giúp !.
         /// </summary>
         public static string ExceptionMISA {
             get {
@@ -97,11 +187,56 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dữ liệu không hợp hệ, vui lòng kiểm tra lại.
+        ///   Looks up a localized string similar to Ngày bạn nhập lớn hơn ngày hiện tại !.
+        /// </summary>
+        public static string ValidateDateMess {
+            get {
+                return ResourceManager.GetString("ValidateDateMess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trường này phải là Email !.
+        /// </summary>
+        public static string ValidateEmailMess {
+            get {
+                return ResourceManager.GetString("ValidateEmailMess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dữ liệu không hợp hệ, vui lòng kiểm tra lại !.
         /// </summary>
         public static string ValidateErrMsg {
             get {
                 return ResourceManager.GetString("ValidateErrMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trường này không được phép để trống !.
+        /// </summary>
+        public static string ValidateNotEmptyMess {
+            get {
+                return ResourceManager.GetString("ValidateNotEmptyMess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Số điện thoại không hợp lệ !.
+        /// </summary>
+        public static string ValidatePhoneNMess {
+            get {
+                return ResourceManager.GetString("ValidatePhoneNMess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mã giáo viên không được phép trùng !.
+        /// </summary>
+        public static string ValidateTeacherCodeMess {
+            get {
+                return ResourceManager.GetString("ValidateTeacherCodeMess", resourceCulture);
             }
         }
     }

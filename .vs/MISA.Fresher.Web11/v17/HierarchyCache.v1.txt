@@ -1,0 +1,258 @@
+﻿++Solution 'MISA.Fresher.Web11' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:MISA.Fresher.Web11.sln
+++MISA.Web11.API
+i:{00000000-0000-0000-0000-000000000000}:MISA.Web11.API
+++Connected Services 
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:>656
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>654
+++Dependencies
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:>653
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:>484
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:>483
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>652
+++Properties
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\properties\
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\properties\
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\properties\
+++Controllers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\controllers\
+++CustomersController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\customerscontroller.cs
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\controllers\customerscontroller.cs
+++DepartmentAssistantsController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\departmentassistantscontroller.cs
+++DepartmentsController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\departmentscontroller.cs
+++MISABaseController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\misabasecontroller.cs
+++SubjectAssistantsController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\subjectassistantscontroller.cs
+++SubjectGroupsController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\subjectgroupscontroller.cs
+++SubjectsController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\subjectscontroller.cs
+++TeachersController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\teacherscontroller.cs
+++WeatherForecastController.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\controllers\weatherforecastcontroller.cs
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\controllers\weatherforecastcontroller.cs
+++appsettings.json
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\appsettings.json
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\appsettings.json
+++Program.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\program.cs
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\program.cs
+++WeatherForecast.cs
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\weatherforecast.cs
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\weatherforecast.cs
+++No service dependencies discovered
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:>657
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>655
+++Analyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:analyzers
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:analyzers
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:analyzers
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:analyzers
+++Frameworks
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:frameworks
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:frameworks
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:frameworks
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:frameworks
+++Packages
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:packages
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:packages
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:packages
+++Projects
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:projects
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:projects
+++launchSettings.json
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\properties\launchsettings.json
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\properties\launchsettings.json
+++appsettings.Development.json
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\appsettings.development.json
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\microsoft.aspnetcore.app
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.api\microsoft.netcore.app
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\microsoft.netcore.app
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\microsoft.netcore.app
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\microsoft.netcore.app
+++Swashbuckle.AspNetCore (6.2.3)
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:>693
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>674
+++MISA.Web11.Core
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.core\bin\debug\net6.0\misa.web11.core.dll
+i:{00000000-0000-0000-0000-000000000000}:MISA.Web11.Core
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.core\bin\debug\net6.0\misa.web11.core.dll
+++MISA.Web11.Infrastructure
+i:{1f6b21ab-17e5-4820-81d5-c2f9205ee33b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\bin\debug\net6.0\misa.web11.infrastructure.dll
+i:{00000000-0000-0000-0000-000000000000}:MISA.Web11.Infrastructure
+++Entities
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\
+++Customer.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\customer.cs
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\model\customer.cs
+++Department.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\department.cs
+++DepartmentAssistant.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\departmentassistant.cs
+++Subject.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\subject.cs
+++SubjectAssistant.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\subjectassistant.cs
+++SubjectGroup.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\subjectgroup.cs
+++Teacher.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\teacher.cs
+++TeacherCustom.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\entities\teachercustom.cs
+++Enum
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\enum\
+++Exceptions
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\exceptions\
+++Interfaces
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\
+++Infrastructure
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\
+++IBaseRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\ibaserepository.cs
+++ICustomerRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\icustomerrepository.cs
+++IDepartmentAssistantRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\idepartmentassistantrepository.cs
+++IDepartmentRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\idepartmentrepository.cs
+++ISubjectAssistantRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\isubjectassistantrepository.cs
+++ISubjectGroupRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\isubjectgrouprepository.cs
+++ISubjectRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\isubjectrepository.cs
+++ITeacherRepository.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\infrastructure\iteacherrepository.cs
+++Service
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\
+++IBaseService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\ibaseservice.cs
+++ICustomerService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\icustomerservice.cs
+++IDepartmentAssistantService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\idepartmentassistantservice.cs
+++IDepartmentService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\idepartmentservice.cs
+++ISubjectAssistantService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\isubjectassistantservice.cs
+++ISubjectGroupService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\isubjectgroupservice.cs
+++ISubjectService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\isubjectservice.cs
+++ITeacherService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\interfaces\service\iteacherservice.cs
+++MISAAttribute
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\misaattribute\
+++MISAAttribute.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\misaattribute\misaattribute.cs
+++BaseService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\baseservice.cs
+++CustomerService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\customerservice.cs
+++DepartmentAssistantService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\departmentassistantservice.cs
+++DepartmentService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\departmentservice.cs
+++SubjectAssistantService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\subjectassistantservice.cs
+++SubjectGroupService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\subjectgroupservice.cs
+++SubjectService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\subjectservice.cs
+++TeacherService.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\service\teacherservice.cs
+++Class1.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\class1.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\class1.cs
+++Resources.resx
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\properties\resources.resx
+++Gender.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\enum\gender.cs
+++MISAValidateException.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\exceptions\misavalidateexception.cs
+++Resources.Designer.cs
+i:{1490b4a9-07fd-49bd-85cf-a2cc1e54dcfd}:e:\misa\c#\misa.fresher.web11\misa.web11.core\properties\resources.designer.cs
+++EmailService
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\emailservice\
+++Repository
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\
+++BaseRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\baserepository.cs
+++CustomerRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\customerrepository.cs
+++DepartmentAssistantRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\departmentassistantrepository.cs
+++DepartmentRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\departmentrepository.cs
+++MariaDBContext.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\mariadbcontext.cs
+++SubjectAssistantRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\subjectassistantrepository.cs
+++SubjectGroupRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\subjectgrouprepository.cs
+++SubjectRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\subjectrepository.cs
+++TeacherRepository.cs
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:e:\misa\c#\misa.fresher.web11\misa.web11.infrastructure\repository\teacherrepository.cs
+++Dapper (2.0.123)
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:>712
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>676
+++Microsoft.Extensions.Configuration.Abstractions (6.0.0)
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:>710
+++MySqlConnector (2.1.2)
+i:{efcf6653-702e-40e2-8225-e32afc2e105b}:>711
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:>675
+++MISA.Fresher.Web11
+i:{00000000-0000-0000-0000-000000000000}:MISA.Fresher.Web11
+++Model
+i:{09275f66-5c87-43be-baaf-1f3362dd6f7c}:e:\misa\c#\misa.fresher.web11\misa.fresher.web11\model\

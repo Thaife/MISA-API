@@ -30,9 +30,5 @@ namespace MISA.Web11.Infrastructure.Repository
 
         }
 
-        public int InsertMuiltService(Guid teacherId, List<Guid> departmentIds)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -13,9 +13,9 @@ namespace Misa.Ex.Core.Entity
         public Guid DepartmentAssistantId { get; set; }
 
         [NotEmpty]
-        public Guid DepartmentId { get; set; }
+        public Guid? DepartmentId { get; set; }
 
         [NotEmpty]
-        public Guid TeacherId { get; set; }
+        public Guid? TeacherId { get; set; }
     }
 }

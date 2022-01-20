@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Misa.Ex.Core.Entity
 {
+    /// <summary>
+    /// Thông tin môn
+    /// Created by: Thai(13/1/2022)
+    /// </summary>
     public class Subject
     {
         /// <summary>

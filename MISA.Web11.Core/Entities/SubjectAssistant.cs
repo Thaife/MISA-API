@@ -9,22 +9,13 @@ namespace Misa.Ex.Core.Entity
 {
     public class SubjectAssistant
     {
-        /// <summary>
-        /// Id bảng phụ Teacher-Subject
-        /// </summary>
         [PrimaryKey]
         public Guid SubjectAssistantId { get; set; }
 
-        /// <summary>
-        /// Id môn học
-        /// </summary>
         [NotEmpty]
-        public Guid SubjectId { get; set; }
+        public Guid? SubjectId { get; set; }
 
-        /// <summary>
-        /// Id giáo viên
-        /// </summary>
         [NotEmpty]
-        public Guid TeacherId { get; set; }
+        public Guid? TeacherId { get; set; }
     }
 }

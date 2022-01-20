@@ -9,67 +9,116 @@ using System.Threading.Tasks;
 
 namespace MISA.Web11.Core.Entities
 {
+    /// <summary>
+    /// Toàn bộ thông tin của teacher
+    /// </summary>
+    /// Created by: Thai(13/1/2022)
     public class TeacherCustom
     {
-        public class teacherCustome
+        #region prop Teacher
+        /// <summary>
+        /// Id giáo viên
+        /// </summary>
+        [PrimaryKey]
+        public Guid TeacherId { get; set; }
+
+
+        /// <summary>
+        /// Mã giáo viên
+        /// </summary>
+        [NotDuplicate]
+        [NotEmpty]
+        [Code]
+        public String TeacherCode { get; set; }
+
+        /// <summary>
+        /// Tên giáo viên
+        /// </summary>
+        [NotEmpty]
+        [Alphabet]
+        public String? FullName { get; set; }
+
+        /// <summary>
+        /// Giới tính
+        /// 0: nữ,
+        /// 1: nam,
+        /// 2: khác,
+        /// </summary>
+        public Gender? Gender { get; set; }
+
+        /// <summary>
+        /// Tên giới tính
+        /// </summary>
+        [NotMap]
+        public string? GenderName
         {
-            #region prop Teacher
-            /// <summary>
-            /// Id giáo viên
-            /// </summary>
-            [PrimaryKey]
-            public Guid TeacherId { get; set; }
-
-
-            /// <summary>
-            /// Mã giáo viên
-            /// </summary>
-            [NotDuplicate]
-            public String TeacherCode { get; set; }
-
-            /// <summary>
-            /// Tên giáo viên
-            /// </summary>
-            [NotEmpty]
-            public String FullName { get; set; }
-            public Gender? Gender { get; set; }
-
-            [NotMap]
-            public string? GenderName
+            get
             {
-                get
+                switch (Gender)
                 {
-                    switch (Gender)
-                    {
-                        case Enum.Gender.Male:
-                            return Properties.Resources.Enum_Gender_Male;
-                        case Enum.Gender.Female:
-                            return Properties.Resources.Enum_Gender_Female;
-                        case Enum.Gender.Other:
-                            return Properties.Resources.Enum_Gender_Other;
-                        default:
-                            return null;
-                    }
+                    case Enum.Gender.Male:
+                        return Properties.Resources.Enum_Gender_Male;
+                    case Enum.Gender.Female:
+                        return Properties.Resources.Enum_Gender_Female;
+                    case Enum.Gender.Other:
+                        return Properties.Resources.Enum_Gender_Other;
+                    default:
+                        return null;
                 }
             }
-            public String? PhoneNumber { get; set; }
-            public String? Email { get; set; }
-            public int? WorkStatus { get; set; }
-            public int? EquipmentManagement { get; set; }
-            public DateTime? ResignDate { get; set; }
-            public Guid SubjectGroupId { get; set; }
-
-            #endregion
-
-            #region Subject
-            [NotMap]
-            public List<Guid> ListSubjectId { get; set; }
-            #endregion
-
-            #region Department
-            [NotMap]
-            public List<Guid> ListDepartmentId { get; set; }
-            #endregion
         }
+
+        /// <summary>
+        /// Số điện thoại
+        /// </summary>
+        [PhoneNumber]
+        public String? PhoneNumber { get; set; }
+
+        /// <summary>
+        /// Email
+        /// </summary>
+        [Email]
+        public String? Email { get; set; }
+        public int? WorkStatus { get; set; }
+        public int? EquipmentManagement { get; set; }
+        [Date]
+        public String? ResignDate { get; set; }
+        public Guid? SubjectGroupId { get; set; }
+
+        /// <summary>
+        /// Tên chuyên môn
+        /// </summary>
+        [NotMap]
+        public String? SubjectGroupName { get; set; }
+
+        #endregion
+
+        #region Subject
+        /// <summary>
+        /// Mã môn học
+        /// </summary>
+        [NotMap]
+        public List<Guid>? SubjectIds { get; set; }
+
+        /// <summary>
+        /// Mã môn học
+        /// </summary>
+        [NotMap]
+        public String? SubjectNames { get; set; }
+        #endregion
+
+        #region Department
+        /// <summary>
+        /// Mã phòng ban
+        /// </summary>
+        [NotMap]
+        public List<Guid>? DepartmentIds { get; set; }
+
+        /// <summary>
+        /// Tên môn học
+        /// </summary>
+        [NotMap]
+        public String? DepartmentNames { get; set; }
+        #endregion
     }
 }

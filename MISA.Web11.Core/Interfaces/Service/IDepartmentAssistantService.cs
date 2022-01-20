@@ -9,5 +9,6 @@ namespace MISA.Web11.Core.Interfaces.Service
 {
     public interface IDepartmentAssistantService:IBaseService<DepartmentAssistant>
     {
+        
     }
 }

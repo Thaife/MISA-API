@@ -18,14 +18,16 @@ builder.Services.AddCors();
 builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
-builder.Services.AddScoped<ICustomerService, CustomerService>();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
-
 builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 
 builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
+
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+
+builder.Services.AddScoped<IDepartmentAssistantRepository, DepartmentAssistantRepository>();
+builder.Services.AddScoped<ISubjectAssistantRepository, SubjectAssistantRepository>();
+
 builder.Services.AddScoped<ISubjectGroupRepository, SubjectGroupRepository>();
 
 

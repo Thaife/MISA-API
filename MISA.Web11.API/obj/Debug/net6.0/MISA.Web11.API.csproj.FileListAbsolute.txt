@@ -31,3 +31,15 @@ E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\obj\Debug\net6.0\MISA.Web11.API.dll
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\obj\Debug\net6.0\ref\MISA.Web11.API.dll
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\obj\Debug\net6.0\MISA.Web11.API.pdb
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\obj\Debug\net6.0\MISA.Web11.API.genruntimeconfig.cache
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\System.Web.Http.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\EPPlus.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
