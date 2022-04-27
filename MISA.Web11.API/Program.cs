@@ -2,6 +2,7 @@
 using MISA.Web11.Core.Interfaces.Service;
 using MISA.Web11.Core.Service;
 using MISA.Web11.Infrastructure.Repository;
+using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,18 +19,16 @@ builder.Services.AddCors();
 builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
-builder.Services.AddScoped<ITeacherService, TeacherService>();
-builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IUnitService, UnitService>();
+builder.Services.AddScoped<IUnitRepository, UnitRepository>();
 
-builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
-
-builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-
-builder.Services.AddScoped<IDepartmentAssistantRepository, DepartmentAssistantRepository>();
-builder.Services.AddScoped<ISubjectAssistantRepository, SubjectAssistantRepository>();
-
-builder.Services.AddScoped<ISubjectGroupRepository, SubjectGroupRepository>();
-
+// Thêm Newtonsoft JSON để sửa lỗi trả về của API
+builder.Services.AddMvc().AddNewtonsoftJson(options =>
+{
+    options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+});
 
 var app = builder.Build();
 

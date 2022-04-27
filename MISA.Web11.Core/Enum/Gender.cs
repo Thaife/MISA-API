@@ -8,7 +8,7 @@ namespace MISA.Web11.Core.Enum
 {
     /// <summary>
     /// Giới tính
-    /// CreatedBy: Thai(13/1/2022)
+    /// CreatedBy: Thai(19/9/2022)
     /// </summary>
     public enum Gender
     {

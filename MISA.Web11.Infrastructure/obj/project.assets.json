@@ -4616,19 +4616,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
+      "projectUniqueName": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
       "projectName": "MISA.Web11.Infrastructure",
-      "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\obj\\",
+      "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4642,8 +4642,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
-              "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
+            "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
+              "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
             }
           }
         }
@@ -4686,7 +4686,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

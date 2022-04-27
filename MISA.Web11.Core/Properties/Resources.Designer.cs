@@ -97,7 +97,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Số hiệu cán bộ.
+        ///   Looks up a localized string similar to Mã nhân viên.
         /// </summary>
         public static string Excel_col_2 {
             get {
@@ -106,7 +106,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Họ và tên.
+        ///   Looks up a localized string similar to Tên nhân viên.
         /// </summary>
         public static string Excel_col_3 {
             get {
@@ -115,7 +115,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Số điện thoại.
+        ///   Looks up a localized string similar to Giới tính.
         /// </summary>
         public static string Excel_col_4 {
             get {
@@ -124,7 +124,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tổ chuyên môn.
+        ///   Looks up a localized string similar to Ngày sinh.
         /// </summary>
         public static string Excel_col_5 {
             get {
@@ -133,7 +133,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Quản lý thiết bị môn.
+        ///   Looks up a localized string similar to Chức danh.
         /// </summary>
         public static string Excel_col_6 {
             get {
@@ -142,7 +142,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Quản lý kho - phòng.
+        ///   Looks up a localized string similar to Tên đơn vị.
         /// </summary>
         public static string Excel_col_7 {
             get {
@@ -151,7 +151,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Đào tạo QLTB.
+        ///   Looks up a localized string similar to Số tài khoản.
         /// </summary>
         public static string Excel_col_8 {
             get {
@@ -160,7 +160,7 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Đang làm việc.
+        ///   Looks up a localized string similar to Tên ngân hàng.
         /// </summary>
         public static string Excel_col_9 {
             get {
@@ -169,11 +169,20 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DẠNH SÁCH CÁN BỘ - GIÁO VIÊN.
+        ///   Looks up a localized string similar to Danh sách nhân viên.
         /// </summary>
-        public static string Excel_Title_Teacher {
+        public static string Excel_File_Name {
             get {
-                return ResourceManager.GetString("Excel_Title_Teacher", resourceCulture);
+                return ResourceManager.GetString("Excel_File_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to danh_sach_nhan_vien.
+        /// </summary>
+        public static string Excel_Title_Employee {
+            get {
+                return ResourceManager.GetString("Excel_Title_Employee", resourceCulture);
             }
         }
         
@@ -205,6 +214,15 @@ namespace MISA.Web11.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mã nhân viên không được phép trùng !.
+        /// </summary>
+        public static string ValidateEmployeeCodeMess {
+            get {
+                return ResourceManager.GetString("ValidateEmployeeCodeMess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dữ liệu không hợp hệ, vui lòng kiểm tra lại !.
         /// </summary>
         public static string ValidateErrMsg {
@@ -228,15 +246,6 @@ namespace MISA.Web11.Core.Properties {
         public static string ValidatePhoneNMess {
             get {
                 return ResourceManager.GetString("ValidatePhoneNMess", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Mã giáo viên không được phép trùng !.
-        /// </summary>
-        public static string ValidateTeacherCodeMess {
-            get {
-                return ResourceManager.GetString("ValidateTeacherCodeMess", resourceCulture);
             }
         }
     }

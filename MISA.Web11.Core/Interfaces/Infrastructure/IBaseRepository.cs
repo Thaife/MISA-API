@@ -10,22 +10,30 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
     {
         /// <summary>
         /// Lấy dữ liệu của 1 class
-        /// Created by: Thai(13/1/2022)
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <returns></returns>
         public IEnumerable<T> Get();
 
         /// <summary>
         /// Lấy dữ liệu 1 class bằng id
-        /// Created by: Thai(13/1/2022)
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <param name="entityId"></param>
         /// <returns></returns>
         public T Get(Guid? entityId);
 
+
+        /// <summary>
+        /// Lấy dữ liệu phân trang
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public IEnumerable<object> GetPaging(int PageSize, int PageNumber, string TextSearch);
+
         /// <summary>
         /// Thêm dữ liệu 1 class
-        /// Created by: Thai(13/1/2022)
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
@@ -33,7 +41,7 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
 
         /// <summary>
         /// Sửa dữ liệu 1 class
-        /// Created by: Thai(13/1/2022)
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <param name="entity"></param>
         /// <param name="entityId"></param>
@@ -42,17 +50,24 @@ namespace MISA.Web11.Core.Interfaces.Infrastructure
 
         /// <summary>
         /// Xóa dữ liệu 1 class
-        /// Created by: Thai(13/1/2022)
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <param name="entityId"></param>
         /// <returns></returns>
         public int Delete(Guid entityId);
 
         /// <summary>
-        /// Xóa toàn bộ dữ liệu của 1 class
-        /// Created by: Thai(13/1/2022)
+        /// Xóa nhiều dữ liệu theo list id
+        /// Created by: Thai(19/3/2022)
         /// </summary>
         /// <returns></returns>
+        public int DeleteMulti(List<Guid> ids);
+        /// <summary>
+        /// Xóa toàn bộ dữ liệu của 1 class
+        /// Created by: Thai(19/3/2022)
+        /// </summary>
+        /// <returns></returns>
+
         public int DeleteAll();
 
         /// <summary>

@@ -130,31 +130,34 @@
     <value>STT</value>
   </data>
   <data name="Excel_col_2" xml:space="preserve">
-    <value>Số hiệu cán bộ</value>
+    <value>Mã nhân viên</value>
   </data>
   <data name="Excel_col_3" xml:space="preserve">
-    <value>Họ và tên</value>
+    <value>Tên nhân viên</value>
   </data>
   <data name="Excel_col_4" xml:space="preserve">
-    <value>Số điện thoại</value>
+    <value>Giới tính</value>
   </data>
   <data name="Excel_col_5" xml:space="preserve">
-    <value>Tổ chuyên môn</value>
+    <value>Ngày sinh</value>
   </data>
   <data name="Excel_col_6" xml:space="preserve">
-    <value>Quản lý thiết bị môn</value>
+    <value>Chức danh</value>
   </data>
   <data name="Excel_col_7" xml:space="preserve">
-    <value>Quản lý kho - phòng</value>
+    <value>Tên đơn vị</value>
   </data>
   <data name="Excel_col_8" xml:space="preserve">
-    <value>Đào tạo QLTB</value>
+    <value>Số tài khoản</value>
   </data>
   <data name="Excel_col_9" xml:space="preserve">
-    <value>Đang làm việc</value>
+    <value>Tên ngân hàng</value>
   </data>
-  <data name="Excel_Title_Teacher" xml:space="preserve">
-    <value>DẠNH SÁCH CÁN BỘ - GIÁO VIÊN</value>
+  <data name="Excel_File_Name" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="Excel_Title_Employee" xml:space="preserve">
+    <value>danh_sach_nhan_vien</value>
   </data>
   <data name="ExceptionMISA" xml:space="preserve">
     <value>Có lỗi, vui lòng liên hệ MISA để được trợ giúp !</value>
@@ -165,6 +168,9 @@
   <data name="ValidateEmailMess" xml:space="preserve">
     <value>Trường này phải là Email !</value>
   </data>
+  <data name="ValidateEmployeeCodeMess" xml:space="preserve">
+    <value>Mã nhân viên không được phép trùng !</value>
+  </data>
   <data name="ValidateErrMsg" xml:space="preserve">
     <value>Dữ liệu không hợp hệ, vui lòng kiểm tra lại !</value>
   </data>
@@ -173,8 +179,5 @@
   </data>
   <data name="ValidatePhoneNMess" xml:space="preserve">
     <value>Số điện thoại không hợp lệ !</value>
-  </data>
-  <data name="ValidateTeacherCodeMess" xml:space="preserve">
-    <value>Mã giáo viên không được phép trùng !</value>
   </data>
 </root>

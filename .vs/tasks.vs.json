@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-MISA.Web11",
+      "appliesTo": "MISA.Web11.API/",
+      "type": "launch"
+    }
+  ]
+}

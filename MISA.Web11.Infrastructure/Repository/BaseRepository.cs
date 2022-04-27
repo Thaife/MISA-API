@@ -52,6 +52,70 @@ namespace MISA.Web11.Infrastructure.Repository
             
         }
 
+        public IEnumerable<object> GetPaging(int PageSize, int PageNumber, string TextSearch)
+        {
+            return new List<object>();
+//            using (sqlConnection = new MySqlConnection(connectionString))
+//            {
+//                var fstRecord = (PageNumber - 1) * PageSize;
+//                DynamicParameters dynamic = new DynamicParameters();
+//                var whereCond = $" WHERE T.EmployeeCode LIKE '%{TextSearch}%' OR T.FullName LIKE '%{TextSearch}%'";
+//                //Sql string join 3 bảng bảng lấy dữ liệu
+//                var sqlCommand = @"SELECT
+//                              T.*,
+//                              DAI.DepartmentNames,
+//                              DAI.DepartmentIds,
+//                              SAI.SubjectIds,
+//                              SAI.SubjectNames,
+//                              SGI.SubjectGroupName
+//                            FROM Employee T
+//                              LEFT JOIN (SELECT
+//                                  DA.EmployeeId,
+//                                  GROUP_CONCAT(D.DepartmentName SEPARATOR ', ') AS DepartmentNames,
+//                                  GROUP_CONCAT(D.DepartmentId SEPARATOR ', ') AS DepartmentIds
+//                                FROM DepartmentAssistant DA
+//                                  JOIN Department D
+//                                    ON DA.DepartmentId = D.DepartmentId
+//                                WHERE D.DepartmentId IS NOT NULL
+//                                GROUP BY DA.EmployeeId) AS DAI
+//                                ON DAI.EmployeeId = T.EmployeeId
+
+//                              LEFT JOIN (SELECT
+//                                  SA.EmployeeId,
+//                                  GROUP_CONCAT(S.SubjectName SEPARATOR ', ') AS SubjectNames,
+//                                  GROUP_CONCAT(S.SubjectId SEPARATOR ', ') AS SubjectIds
+//                                FROM SubjectAssistant SA
+//                                  JOIN Subject S
+//                                    ON SA.SubjectId = S.SubjectId
+//                                WHERE S.SubjectId IS NOT NULL
+//                                GROUP BY SA.EmployeeId) AS SAI
+//                                ON SAI.EmployeeId = T.EmployeeId
+
+//                            LEFT JOIN
+//                                (SELECT SG.SubjectGroupId, SG.SubjectGroupName
+//                                FROM SubjectGroup SG
+//                                WHERE SG.SubjectGroupId IS NOT NULL) AS SGI
+//                                ON SGI.SubjectGroupId = T.SubjectGroupId 
+                             
+//";
+//                //Nếu TextSearch tồn tại => add string tìm kiếm
+//                if (!string.IsNullOrEmpty(TextSearch))
+//                {
+//                    sqlCommand += whereCond;
+//                }
+//                //add string paging
+//                else
+//                {
+//                    sqlCommand += "ORDER BY T.EmployeeCode DESC LIMIT @fstRecord,@pageSize";
+//                    dynamic.Add("@pageSize", PageSize);
+//                    dynamic.Add("@fstRecord", fstRecord);
+//                }
+//                var Employees = sqlConnection.Query<Object>(sqlCommand, param: dynamic);
+//                return Employees;
+//            }
+
+        }
+
         public int Insert(T entity)
         {
             using (sqlConnection = new MySqlConnection(connectionString))
@@ -93,7 +157,7 @@ namespace MISA.Web11.Infrastructure.Repository
                 listProperty = listProperty.Substring(0, listProperty.Length - 1);
                 listValue = listValue.Substring(0, listValue.Length - 1);
 
-                var sqlString = $"insert {tableName}({listProperty}) values({listValue})";
+                var sqlString = $"insert into {tableName}({listProperty}) values({listValue})";
                 var res = sqlConnection.Execute(sqlString, paras);
                 return res;
             }
@@ -165,6 +229,28 @@ namespace MISA.Web11.Infrastructure.Repository
             }
            
         }
+        public int DeleteMulti(List<Guid> ids)
+        {
+            using (sqlConnection = new MySqlConnection(connectionString))
+            {
+                var tableName = typeof(T).Name;
+                List<string> temp = new List<string>();
+
+                foreach (var id in ids)
+                {
+                    string idString = $" {tableName}Id = '{id}' ";
+                    temp.Add(idString);
+                }
+                string condition = String.Join("OR", temp);
+                string sqlString = $"Delete from {@tableName} where {@condition}";
+                DynamicParameters paras = new DynamicParameters();
+                paras.Add("@tableName", tableName);
+                paras.Add("@condition", condition);
+                var res = sqlConnection.Execute(sqlString);
+
+                return res;
+            }
+        }
 
         public bool CheckDuplicate(string propName, string propValue)
         {
@@ -182,6 +268,8 @@ namespace MISA.Web11.Infrastructure.Repository
                 return false;
             }
         }
+
+        
         #endregion
     }
 }

@@ -17,6 +17,7 @@ namespace MISA.Web11.Core.Entities
         /// Id giáo viên
         /// </summary>
         [PrimaryKey]
+        [NotEmpty]
         public Guid TeacherId { get; set; }
 
 
@@ -24,13 +25,13 @@ namespace MISA.Web11.Core.Entities
         /// Mã giáo viên
         /// </summary>
         [NotDuplicate]
-        public String TeacherCode { get; set; }
+        public string TeacherCode { get; set; }
 
         /// <summary>
         /// Tên giáo viên
         /// </summary>
         [NotEmpty]
-        public String FullName { get; set; }
+        public string FullName { get; set; }
 
         /// <summary>
         /// Giới tính
@@ -65,12 +66,12 @@ namespace MISA.Web11.Core.Entities
         /// <summary>
         /// Số điện thoại
         /// </summary>
-        public String? PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
 
         /// <summary>
         /// Email
         /// </summary>
-        public String? Email { get; set; }
+        public string? Email { get; set; }
 
         /// <summary>
         /// Tình trạng công việc

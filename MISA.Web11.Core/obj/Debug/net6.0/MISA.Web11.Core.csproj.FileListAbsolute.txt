@@ -12,3 +12,17 @@ E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.p
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.csproj.AssemblyReference.cache
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.Properties.Resources.resources
 E:\MISA\C#\MISA.Fresher.Web11\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.csproj.GenerateResource.cache
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\bin\Debug\net6.0\MISA.Web11.Core.deps.json
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\bin\Debug\net6.0\MISA.Web11.Core.dll
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\bin\Debug\net6.0\MISA.Web11.Core.pdb
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.csproj.AssemblyReference.cache
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.Properties.Resources.resources
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.csproj.GenerateResource.cache
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.AssemblyInfoInputs.cache
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.AssemblyInfo.cs
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.csproj.CoreCompileInputs.cache
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.dll
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\refint\MISA.Web11.Core.dll
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\MISA.Web11.Core.pdb
+G:\Train\BackEnd\BaseAPI\MISA.Web11.Core\obj\Debug\net6.0\ref\MISA.Web11.Core.dll

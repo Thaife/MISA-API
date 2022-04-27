@@ -275,19 +275,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Fresher.Web11\\MISA.Fresher.Web11.csproj",
+      "projectUniqueName": "G:\\Train\\BaseAPI\\MISA.Fresher.Web11\\MISA.Fresher.Web11.csproj",
       "projectName": "MISA.Fresher.Web11",
-      "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Fresher.Web11\\MISA.Fresher.Web11.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Fresher.Web11\\obj\\",
+      "projectPath": "G:\\Train\\BaseAPI\\MISA.Fresher.Web11\\MISA.Fresher.Web11.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "G:\\Train\\BaseAPI\\MISA.Fresher.Web11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -344,7 +344,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

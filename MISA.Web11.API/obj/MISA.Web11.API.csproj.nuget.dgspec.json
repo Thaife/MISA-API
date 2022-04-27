@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.API\\MISA.Web11.API.csproj": {}
+    "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.API\\MISA.Web11.API.csproj": {}
   },
   "projects": {
-    "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.API\\MISA.Web11.API.csproj": {
+    "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.API\\MISA.Web11.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.API\\MISA.Web11.API.csproj",
+        "projectUniqueName": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.API\\MISA.Web11.API.csproj",
         "projectName": "MISA.Web11.API",
-        "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.API\\MISA.Web11.API.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.API\\obj\\",
+        "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.API\\MISA.Web11.API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
-                "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
+              "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
+                "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
               },
-              "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj": {
-                "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj"
+              "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj": {
+                "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
+    "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj",
+        "projectUniqueName": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj",
         "projectName": "MISA.Web11.Core",
-        "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\obj\\",
+        "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj": {
+    "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
+        "projectUniqueName": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
         "projectName": "MISA.Web11.Infrastructure",
-        "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Infrastructure\\obj\\",
+        "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\MISA.Web11.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
-                "projectPath": "E:\\MISA\\C#\\MISA.Fresher.Web11\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
+              "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj": {
+                "projectPath": "G:\\Train\\BackEnd\\BaseAPI\\MISA.Web11.Core\\MISA.Web11.Core.csproj"
               }
             }
           }
@@ -206,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

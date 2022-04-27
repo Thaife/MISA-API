@@ -12,7 +12,7 @@ namespace MISA.Web11.Core.Exceptions
         IDictionary MISAData = new Dictionary<string, object>();
         public MISAValidateException(object data)
         {
-            this.MISAData.Add("data", data);
+            this.MISAData.Add("ex", data);
         }
         public override string Message
         {

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
@@ -15,5 +16,7 @@
     <ProjectReference Include="..\MISA.Web11.Core\MISA.Web11.Core.csproj" />
     <ProjectReference Include="..\MISA.Web11.Infrastructure\MISA.Web11.Infrastructure.csproj" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="ss" /></VisualStudio></ProjectExtensions>
 
 </Project>
